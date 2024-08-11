@@ -1,0 +1,8 @@
+.col-lg-7 about-content a div:hover {
+	color: darkred;
+	text-decoration: none;
+}
+.col-lg-3 col-md-6 col-sm-6 mx-auto .counter text-center a p:hover {
+	color: darkred;
+	text-decoration: none;
+}
