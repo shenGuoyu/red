@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>普通文本页面</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		#container {
+			margin: 0 auto;
+			width: 100%;
+			height: 5000px;
+		}
+		
+		#firstimg {
+			margin: 0 auto;
+			width: 1700px;
+			height: 700px;
+			background-color: green;
+			z-index: 1;
+		}
+		
+		#container2 {
+			position: relative;
+			margin: 0 auto;
+			width: 1200px;
+			height: 3000px;
+			background-color: white;
+			top: -100px;
+			z-index: 10;
+			padding: 50px;
+			
+		}
+		
+		#container2 h1 {
+			text-align: center;
+			margin-bottom: 30px;
+			font-size: 40px;
+		}
+		
+		#container2 p {
+			margin: 20px 100px 0px;
+			font-size: 20px;
+			text-indent: 2em;
+			letter-spacing: 3px;
+			line-height: 130%;
+		}
+		
+		#container2 h2 {
+			margin: 40px 100px 0px;
+		}
+		
+		#container2 h3 {
+			margin: 20px 100px 0px;
+			font-size: 20px;
+			text-indent: 1em;
+		}
+		
+		.pic-first {
+			width: 900px;
+			height: 500px;
+			margin: 0 auto;
+			background-color: aqua;
+			margin-top: 20px;
+		}
+		
+		.pic-first img {
+			width: 100%;
+			height: 100%;
+			margin-bottom: 100px;
+		}
+		
+		.pic-second {
+			width: 700px;
+			height: 500px;
+			position: absolute;
+			letter-spacing: 4px;
+		}
+		
+		.pic-second2 {
+			width: 400px;
+			height: 500px;
+			position: relative;
+			letter-spacing: 4px;
+			background-color: aquamarine;
+			left: 650px;
+			
+		}
+	</style>
+</head>
+<body>
+    <div id="container">
+    	<div id="firstimg">
+    		<img src="img/hero.jpg" width="100%" height="100%"/>
+    	</div>
+    	<div id="container2" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);">
+    		<h1 >客家文化</h1><hr />
+    		<h2>一、客家祠堂</h2>
+    			<p>概述：瑞金是客家祠堂的聚集地，拥有上千座古祠，其中保存相对完好的有四百多座。客家祠堂不仅是祭祀先祖的重要场所，也是凝聚宗族人心、传承客家文化的重要载体。</p><br />
+				<p>特色：客家祠堂外形飞檐峭壁，青砖灰瓦，风火墙高峻突兀，气势雄伟壮观。它们讲究宗族伦理顺序、风水和客家礼仪，造型、结构及装饰精巧独特。</p><br />
+				<p>代表：如九堡密溪村的“五祠朝南”奇观，以及叶坪的谢氏宗祠等，都是客家祠堂的杰出代表。</p>
+			<div class="pic-first"></div>
+    		<h2>二、客家民居</h2>
+    				<p>概述：瑞金的客家民居以围屋为主，是客家文化在建筑领域的集中体现。这些民居不仅具有居住功能，还承载着丰富的文化内涵和历史记忆。</p><br />
+    				<p>特色：客家围屋通常采用土木混合结构或砖木混合结构，注重采光、防火和排水。它们以石柱雕联、石鼓承柱、雕梁画栋和装饰屋顶为特色，展现了客家人的建筑智慧和艺术才能。</p>
+    		<h2>三、客家方言</h2>
+    				<p>概述：瑞金人讲客家方言，这是客家文化在语言领域的体现。瑞金客家方言在文字语汇上较接近普通话，但语音又与邻近县市区的客家语言有差异。</p><br />
+    				<p>特色：客家方言是客家人交流的重要工具，也是传承客家文化的重要载体。它蕴含着丰富的历史信息和文化内涵，是了解客家文化的重要途径。</p>
+    		<h2>四、客家民俗活动</h2>
+    				<p>概述：瑞金拥有丰富的客家民俗活动，如打米果、舞龙灯、品美食等。这些活动不仅丰富了当地人民的文化生活，也展现了客家文化的独特魅力。</p><br />
+					<p>概述：特色：客家民俗活动通常与节日、庆典等场合相结合，具有浓厚的乡土气息和地域特色。它们通过表演、游戏、美食等形式，传承和弘扬了客家文化。</p>
+			<h2>五、客家擂茶</h2>
+				<div class="pic-second">
+					<p style="margin-top: 40px;">概述：擂茶是客家地区的一种传统饮品，起源于中原人将青草药擂烂冲服的“药饮”。在瑞金，擂茶制作技艺已成功列入国家级非物质文化遗产名录。</p><br />
+					<p>特色：客家擂茶以茶叶、芝麻、花生等为主要原料，经过擂制、冲泡等工序制成。它口感清香、营养丰富，具有提神醒脑、消食化积等功效。在瑞金，品尝擂茶已成为游客体验客家文化的重要方式之一。</p>
+				</div>
+				<div class="pic-second2"></div>
+			<h2>六、客家山歌与戏曲</h2>
+					<p>概述：瑞金历史上曾流行唱山歌，虽然现不多见，但客家山歌仍是客家文化的重要组成部分。此外，瑞金还引进了赣南采茶戏等地方戏曲形式，丰富了当地的文化生活。</p><br />
+					<p>特色：客家山歌以抒情见长，歌词质朴自然、情感真挚。赣南采茶戏则以其独特的表演形式和丰富的剧目内容受到广大观众的喜爱。这些戏曲和山歌不仅传承了客家文化的精髓，也为当地人民提供了丰富的精神食粮。</p>
+    	</div>
+    </div>
+</body>
+</html>
